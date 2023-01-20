@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.313">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Reynaldo Naufal Iqbal Risqullah">
+<meta name="dcterms.date" content="2023-01-18">
+
+<title>ANALISIS TREND PERKEMBANGAN EKSPOR KOMODITAS KOPI, KETERSEDIAAN PRODUK KOPI, DAN PENGARUHNYA TERHADAP NILAI PDB INDONESIA</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+
+<script src="Quarto Reynaldo_files/libs/clipboard/clipboard.min.js"></script>
+<script src="Quarto Reynaldo_files/libs/quarto-html/quarto.js"></script>
+<script src="Quarto Reynaldo_files/libs/quarto-html/popper.min.js"></script>
+<script src="Quarto Reynaldo_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="Quarto Reynaldo_files/libs/quarto-html/anchor.min.js"></script>
+<link href="Quarto Reynaldo_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="Quarto Reynaldo_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="Quarto Reynaldo_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="Quarto Reynaldo_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="Quarto Reynaldo_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+</head>
+
+<body class="fullcontent">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">ANALISIS TREND PERKEMBANGAN EKSPOR KOMODITAS KOPI, KETERSEDIAAN PRODUK KOPI, DAN PENGARUHNYA TERHADAP NILAI PDB INDONESIA</h1>
+<p class="subtitle lead">Tugas Pengganti UAS Metode Penelitian Politeknik APP Jakarta</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Reynaldo Naufal Iqbal Risqullah </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">January 18, 2023</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<p><img src="poltekapp.jpg" class="img-fluid"></p>
+<section id="pendahuluan" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Pendahuluan</h1>
+<section id="latar-belakang" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="latar-belakang"><span class="header-section-number">1.1</span> Latar belakang</h2>
+<p>Indonesia merupakan salah satu negara pemasok ekspor migas dan nonmigas di pasar dunia. Tidak kurang dari 140 negara yang menjadi tujuan ekspor Indonesia (Ramadhani, 2018). Menurut data yang di peroleh dari statistik yang dikeluarkan oleh Biro Pusat Statistik (BPS), hampir 5.000 macam produk dari Indonesia telah memasuki pasar-pasar negara tersebut, salah satunya yaitu ekspor kopi.</p>
+<p>Kopi merupakan salah satu komoditas unggulan dalam subsektor perkebunan di Indonesia karena memiliki peluang pasar yang baik di dalam negeri maupun luar negeri. Sebagian besar produksi kopi di Indonesia merupakan komoditas perkebunan yang dijual ke pasar dunia (Fernanda dan Rini, 2018). Luas areal kopi di Indonesia menempati urutan kedua terbesar setelah Brazil. Luas areal kopi di Indonesia pada tahun 2011 diperkirakan sebesar 1.254.921 hektar, dimana umumnya diusahakan oleh perkebunan rakyat 95.94%,perkebunan negara 1.77%, dan perkebunan swasta 2.29%. Dtinjau dari produksi, Indonesia menempati urutan ketiga setelah Brazil dan Vietanam. Keadaan ini terjadi karena produktivitas kopi Indonesia jauh lebih rendah dibandingkan dengan Vietnam. Rendahnya produktivitas kopi Indonesia karena sebagian besar diusahatan oleh perkebunan rakyat dengan keterbatasan modal dan akses terhadap teknologi (Hanani dkk, 2012).</p>
+<p>Menurut <em>International Coffee Organization (ICO)</em> konsumsi kopi meningkat dari tahun ke tahun sehingga peningkatan produksi kopi di Indonesia memiliki peluang besar untuk mengekspor kopi ke negara negara pengonsumsi kopi utama dunia seperti Uni Eropa, Amerika Serikat, dan Jepang. Tahun 2010 negara pengeskpor kopi terbesar ditempai oleh Brazil dengan pangsa pasar ekpor 27.22%, diikuti Vietnam 18.51%, sedangkan Indonesia menempati urutan ketiga dengan pangsa 6.58%, dan Columbia 6.23 %. Usaha peningkatan ekspor kopi Indonesia di pasar internasional perlu dilakukan tidak hanya memperhatikan aspek produksi namun juga perlu memperhatikan tingkat persaingan ekspor dengan negara pesaing utamanya (Fernanda dan Rini, 2018).</p>
+<p>Pada tahun 2014 jumlah ekspor kopi Indonesiaa mencapai 385 ton dan akan selalu meningkat pada setiap tahunnya. Jumlah tersebut merupakan jumlah biji kopi yang telah di ekspor ke beberapa negara besar di dunia, salah satunya yaitu negara Amerika, Jerman dan negara-negara Eropa. Pada tahun 2014 Indonesia menjadi salah satu eksportir kopi terbesar di dunia (Ramadhani, 2018)</p>
+<p>Dari uraian tersebut dirasa perlu diadakan penelitian lebih lanjut terkait dengan analisis trend perkembangan komoditas ekspor kopi, ketersediaan produk kopi, dan pengaruhnya terhadap nilai PDB Indonesia. Adapun tujuan penelitian ini adalah untuk menganalisis kondisi terkini ekspor kopi Indonesia, ketersediaan produk kopi, dan pengaruhnya terhadap nilai PDB Indonesia.</p>
+</section>
+<section id="ruang-lingkup" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="ruang-lingkup"><span class="header-section-number">1.2</span> Ruang lingkup</h2>
+<p>Ruang lingkup bahasan permasalahan dari laporan ini adalah memakai beberapa variabel, total ekspor kopi, PDB Indonesia, dan produktivitas dari kopi sendiri. Rentang waktu (Time Series) yang peneliti gunakan untuk penelitian adalah dari tahun 2002-2020. Batasan masalah yang dipakai peneliti adalah untuk mengetahui analisis kondisi terkini ekspor kopi Indonesia, ketersediaan produk kopi, dan pengaruhnya terhadap nilai PDB Indonesia.</p>
+</section>
+<section id="rumusan-masalah" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="rumusan-masalah"><span class="header-section-number">1.3</span> Rumusan masalah</h2>
+<p>Berdasarkan pemaparan pada latar belakang, permasalahan yang diidentifikasi adalah sebagai berikut:</p>
+<ol type="1">
+<li><p>Bagaimana kondisi trend terkini/trend perkembangan ekspor komoditas kopi Indonesia di Pasar Inrternasional?</p></li>
+<li><p>Seberapa besar pengaruh ekspor kopi Indonesia terhadap nilai PDB Indonesia?</p></li>
+<li><p>Pengaruh produktivitas kopi terhadap total nilai ekspor dan nilai PDB Indonesia?</p></li>
+</ol>
+</section>
+<section id="tujuan-dan-manfaat-penelitian" class="level2" data-number="1.4">
+<h2 data-number="1.4" class="anchored" data-anchor-id="tujuan-dan-manfaat-penelitian"><span class="header-section-number">1.4</span> Tujuan dan Manfaat Penelitian</h2>
+<p>Tujuan dilakukannya penelitian ini adalah sebagai berikut:</p>
+<ol type="1">
+<li><p>Untuk mengetahui trend terkini/trend perkembangan ekspor komoditas kopi Indonesia di Pasar Internasional.</p></li>
+<li><p>Untuk mengetahui pengaruh ekspor kopi Indonesia terhadap nilai PDB Indonesia.</p></li>
+</ol>
+<p>Untuk mengetahui pengaruh produktivitas kopi terhadap total nilai ekspor dan nilai PDB Indonesia.</p>
+<p>Manfaat dilakukannya penelitian ini adalah sebagai berikut:</p>
+<ol type="1">
+<li>Aspek ilmiah: Hasil penelitian diharapkan dapat menjadi salah satu referensi dalam memberikan informasi ilmiah yang menunjang ilmu pengetahuan dalam bidang kajian perdagangan internasional kondisi terkini ekspor kopi Indonesia, ketersediaan produk kopi, dan pengaruhnya terhadap nilai PDB Indonesia.</li>
+<li>Aspek praktis: Hasil penelitian diharapkan dapat menjadi&nbsp; referensi dalam merencanakan strategi/upaya untuk mengoptimalkan kegiatan ekspor komoditas kopi Indonesia di Pasar Internasional.</li>
+</ol>
+</section>
+</section>
+<section id="studi-pustaka" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Studi pustaka</h1>
+<section id="teori-permintaan-dan-penawaran-ekspor" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="teori-permintaan-dan-penawaran-ekspor"><span class="header-section-number">2.1</span> Teori Permintaan dan Penawaran Ekspor</h2>
+<p>Perdagangan Internasional adalah perdagangan yang dilakukan oleh penduduk suatu negara dengan penduduk negara lain atas dasar kesepakatan bersama. Penduduk yang dimaksud dapat berupa antar perorangan (individu dengan individu), antara individu dengan pemerintah suatu negara atau pemerintah suatu negara dengan pemerintah negara lain. Di banyak negara, perdagangan internasional menjadi salah satu faktor utama untuk meningkatkan GDP. Adam Smith mengajukan teori perdagangan internasional yang dikenal dengan teori keunggulan absolut <em>(theory of absolute advantage)</em>. Ia berpendapat bahwa jika suatu negara menghendaki adanya persaingan, perdagangan bebas dan spesialisasi di dalam negeri, maka hal yang sama juga dikehendaki dalam hubungan antar bangsa. Karena hal itu ia mengusulkan bahwa sebaiknya semua negara lebih baik berspesialisasi dalam komoditi komoditi di mana ia mempunyai keunggulan yang absolut dan mengimpor saja komoditi komoditinya lainnya (Fernanda dan Rini, 2018).</p>
+<p>Secara teoritis ekspor suatu barang dipengaruhi oleh suatu penawaran <em>(supply)</em> dan permintaan <em>(demand).</em> Dalam <em>International Economics: Theory and Policy</em> disebutkan bahwa faktor-faktor yang mempengaruhi ekspor dapat dilihat dari sisi permintaan dan sisi penawaran. Dari sisi permintaan, ekspor dipengaruhi oleh harga ekspor, nilai tukar riil, pendapatan dunia dan kebijakan devaluasi (Krugman P.R. dan Obstfeld, M. 1999). Sedangkan dari sisi penawaran, ekspor dipengaruhi oleh harga ekspor, harga domestik, nilai tukar riil, kapasitas produksi yang biasa dilakukan melalui investasi, impor bahan baku dan kebijakan deregulas (Fernanda dan Rini, 2018).</p>
+<p>Teori permintaan menerangkan tentang ciri hubungan antara jumlah permintaan dan harga (Sadono S, 2005). Menurut Gregory Mankiw (2012) kuantitas permintaan menurun ketika harganya meningkat dan kuantitas permintaan meningkat ketika harganya menurun sehingga dikatakan bahwa kuantitas yang diminta berhubungan secara negatif dengan harga. Hubungan antara harga dan kuantitas yang diminta seperti ini berlaku untuk sebagian besar barang dalam perekonomian dan dalam faktanya begitu nyata sehingga para ekonom menamakannya hukum permintaan <em>(law of demand)</em> dengan menganggap hal ainnya sama <em>(ceteris paribus)</em> (Fernanda dan Rini, 2018).</p>
+</section>
+<section id="komoditas-kopi-indonesia" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="komoditas-kopi-indonesia"><span class="header-section-number">2.2</span> Komoditas Kopi Indonesia</h2>
+<p>Kopi merupakan komoditas ekspor yang cukup penting bagi perekonomian Indonesia karena perolehan devisa dari kopi menduduki urutan keempat setelah kayu, karet, dan kelapa sawit. Kopi memiliki banyak jenis, jenis yang diminati orang adalah jenis arabika dan robusta dan jenis kopi lainnya seperti liberika dan ekselsa (Lubis dkk, 2017).</p>
+<p>Berdasarkan data statistik Gabungan Eksportir Kopi Indonesia (GAEKI) tahun 2018, kopi adalah salah satu komoditas perkebunan yang berpotensi terutama jika dilihat dari proporsi luas lahan tanaman kopi, dengan luas estimasi Perkebunan Rakyat (PR) sebesar 1.210.166 Ha, Perkebunan Negara (PBN) 23.525 Ha,dan untuk Perkebunan Swasta (PBS) 25.445 Ha. Kopi tergolong kelompok tanaman yang membutuhkan unsur hara dalam jumlah banyak yaitu umur 1 tahun unsur Nitrogen membutuhkan 20 g urea /pohon , fosfor 25 g SP36 /pohon, Kalsium 15 g KCL /pohon (Puslitkoka, 2006).</p>
+<p>Berdasarkan hasil penelitian dilaporkan bahwa setiap hektar tanaman kopi (Arabika dan Robusta) mengangkut unsur makro N, P, K, Mg dan Ca dari tanah,. Unsur hara yang diserap tersebut sebagian untuk pembentukan jaringan baru tanaman, dan sebagian lagi hilang terangkut hasil panen atau hasil pemangkasan (Malavolta, 1990).</p>
+</section>
+</section>
+<section id="metode-penelitian" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Metode penelitian</h1>
+<section id="data" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="data"><span class="header-section-number">3.1</span> Data</h2>
+<p><a href="https://drive.google.com/drive/folders/19nv0oCLpmhbD1QlHVQCw7AubOsZTGZSJ?usp=share_link">Data Terkait Metodologi Penelitian</a></p>
+<p>Dalam link tersebut merupakan data terkait dari pengelolaan data regresi. Untuk data total ekspor dan produktivitas kopi didapatkan dari BPS, untuk data nilai PDB Indonesia didapatkan dari WDI.</p>
+</section>
+<section id="metode-analisis" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="metode-analisis"><span class="header-section-number">3.2</span> Metode analisis</h2>
+<p>Penelitian ini dipilih karena kopimenjadi komoditas yang strategis di Indonesia dan menurut peneliti, periode tersebut menggambarkan kondisi terkini dari ekspor kopi. Terdapat 3 variabel yang akan digunakan dalam penelitian ini, total nilai ekspor kopi, PDB Indonesia, dan otal produktivitas kopi.</p>
+<p>Jenis data dalam penelitian ini adalah data kuantitatif dalam bentuk time series. Data yang diperlukan dalam penelitian ini adalah data total nilai ekspor kopi, PDB Indonesia, dan total produktivitas kopi. Data diambil dalam kurun waktu 18 tahun dari 2002-2020.</p>
+<p><span class="math display">\[
+y_{t}=\beta_0 + \beta_1 x_t+\mu_t
+\]</span></p>
+<p>Metode analisis yang digunakan dalam penelitian ini adalah teknik kuantitatif dan penjabaran deskriptif, melalui tahapan sebagai berikut:</p>
+<ol type="1">
+<li><p><em>Data Reduction</em> (Data Reduksi)</p>
+<p>Mereduksi data berarti merangkum, memilih hal-hal yang pokok, memfokuskan pada hal-hal yang penting.</p></li>
+<li><p><em>Data Display</em> (Penyajian Data)</p>
+<p>Penyajian data dilakukan dengan mengelompokkan data sesuai dengan sub bab-nya masing-masing. Dalam penulisan kualitatif, penyajian data dilakukan dengan bentuk uraia n singkat, bagan, hubungan antar kategori dan sejenisnya, tetapi yang paling seringdigunakan adalah teks yang bersifat naratif (Sugiyono, 2005).</p></li>
+<li><p><em>Conclusion Drawing/Verification</em> (Simpulan/Verifikasi)</p>
+<p>Langkah yang terakhir dilakukan dalam analisis data kualitatif adalah penarikan kesimpulan dan verifikasi dari hasil yang telah didapatkan.</p></li>
+</ol>
+</section>
+</section>
+<section id="pembahasan" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> Pembahasan</h1>
+<section id="pembahasan-masalah" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="pembahasan-masalah"><span class="header-section-number">4.1</span> Pembahasan Masalah</h2>
+<p>Berdasarkan hasil penelitian yang dilakukan secara <em>study literature</em>. Penelitian yang dilakukan oleh (Fernanda dan Rini, 2018) dengan metode analisis <em>trend</em> menyatakan bahwa periode waktu mempengaruhi ekspor kopi. Analisis regresi bertujuan untuk mengetahui pengaruh variabel independent terhadap variabel dependen. Pada penelitian ini akan dianalisis pengaruh waktu (tahun) terhadap ekspor kopi.</p>
+<p>Berdasarkan literatur yang didapatkan (Fernanda dan Rini, 2018) melaporkan dalam penelitiannya bahwa perkembangan nilai ekspor Indonesia dari periode tahun 1990-2017, sebesar 292196 ton. Sementara peramalan yang dilakukan untuk melihat nilai ekspor kopi Indonesia pada tahun 2020 sebesar 7205 ton. Sedangkan koefisien regresi Negara Indonesia diperoleh sebesar 39,983 menunjukkan ekspor kopi akan meningkat sebesar 39,983 setiap tahunnya.</p>
+<p>Nilai koefisien regresi 39,983 ekspor kopi akan meningkat sebesar 39,983 satuan setiap kenaikan satu-satuan dari waktu. Ekspor kopi Indonesia terdiri dari beberapa jenis yaitu <em>Green beens, Instan Coffee, Ekstract, Essence, Concentratte</em> dan <em>Roasted Coffee</em>. Beberapa jenis kopi yang diekspor oleh Indonesia di pasar dunia serta besarnya ekspor dari masing masing jenis kopi. Jenis kopi yang terbanyak diekspor adalah dalam bentuk <em>Green Beens</em>, sedangkan jenis <em>Roasted Coffee</em> adalah yang terkecil diekspor oleh Indonesia. Perkembangan eskpor kopi pada umumnya fluktuatif namun cenderung meningkatkan dari tahun ke tahun.</p>
+<p>Besarnya komoditas volume ekspor kopi di pasar internasional saling mempengaruhi dan dipengaruhi oleh nilai PDB dan total nilai produktivitas dari kopi itu sendiri dan pengaruh yang diberikan sangatlah signifikan. Data pada tabel dibawah menunjukkan bahwasannya setiap terjadinya peningkatan produktivitas pada kopi juga mempengaruhi terhadap peningkatan volume ekspor kopi itu sendiri. Dengan terjadinya peningkatan volume ekspor kopi itu juga memberikan pengaruh yang signifikan terhadap total nilai PDB Indonesia.</p>
+</section>
+<section id="analisis-masalah" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="analisis-masalah"><span class="header-section-number">4.2</span> Analisis Masalah</h2>
+<p>Package</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+✔ ggplot2 3.4.0      ✔ purrr   1.0.1 
+✔ tibble  3.1.8      ✔ dplyr   1.0.10
+✔ tidyr   1.2.1      ✔ stringr 1.5.0 
+✔ readr   2.1.3      ✔ forcats 0.5.2 
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readxl)</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>dat4<span class="ot">&lt;-</span><span class="fu">read_excel</span>(<span class="st">'DATA METOPEL KOPI VARIABEL.xlsx'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>New names:
+• `` -&gt; `...4`
+• `` -&gt; `...5`
+• `` -&gt; `...6`
+• `` -&gt; `...7`
+• `` -&gt; `...8`
+• `` -&gt; `...9`
+• `` -&gt; `...10`
+• `` -&gt; `...11`
+• `` -&gt; `...12`
+• `` -&gt; `...13`
+• `` -&gt; `...14`
+• `` -&gt; `...15`
+• `` -&gt; `...16`
+• `` -&gt; `...17`
+• `` -&gt; `...18`
+• `` -&gt; `...19`
+• `` -&gt; `...20`
+• `` -&gt; `...21`
+• `` -&gt; `...22`
+• `` -&gt; `...23`
+• `` -&gt; `...24`
+• `` -&gt; `...25`
+• `` -&gt; `...26`
+• `` -&gt; `...27`
+• `` -&gt; `...28`
+• `` -&gt; `...29`
+• `` -&gt; `...30`
+• `` -&gt; `...31`
+• `` -&gt; `...32`
+• `` -&gt; `...33`
+• `` -&gt; `...34`
+• `` -&gt; `...35`
+• `` -&gt; `...36`
+• `` -&gt; `...37`
+• `` -&gt; `...38`
+• `` -&gt; `...39`
+• `` -&gt; `...40`
+• `` -&gt; `...41`
+• `` -&gt; `...42`
+• `` -&gt; `...43`
+• `` -&gt; `...44`
+• `` -&gt; `...45`
+• `` -&gt; `...46`
+• `` -&gt; `...47`
+• `` -&gt; `...48`
+• `` -&gt; `...49`
+• `` -&gt; `...50`
+• `` -&gt; `...51`
+• `` -&gt; `...52`
+• `` -&gt; `...53`
+• `` -&gt; `...54`
+• `` -&gt; `...55`
+• `` -&gt; `...56`
+• `` -&gt; `...57`
+• `` -&gt; `...58`
+• `` -&gt; `...59`
+• `` -&gt; `...60`
+• `` -&gt; `...61`
+• `` -&gt; `...62`</code></pre>
+</div>
+</div>
+<p>Hasil Plot bisa dilihat <a href="https://drive.google.com/drive/folders/18siWfyzE7oUCgu3abFQcwwpQvUrap8xZ?usp=sharing">disini.</a></p>
+<p>regresi</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>reg4<span class="ot">&lt;-</span><span class="fu">lm</span>(Y<span class="sc">~</span>X, <span class="at">data=</span>dat4)</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(reg4)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Call:
+lm(formula = Y ~ X, data = dat4)
+
+Residuals:
+       Min         1Q     Median         3Q        Max 
+-4.424e+11 -2.847e+11  9.636e+10  2.339e+11  4.573e+11 
+
+Coefficients:
+             Estimate Std. Error t value Pr(&gt;|t|)
+(Intercept) 4.079e+11  4.293e+11   0.950    0.355
+X           7.138e+05  1.049e+06   0.681    0.505
+
+Residual standard error: 3.259e+11 on 17 degrees of freedom
+  (6 observations deleted due to missingness)
+Multiple R-squared:  0.02653,   Adjusted R-squared:  -0.03073 
+F-statistic: 0.4634 on 1 and 17 DF,  p-value: 0.5052</code></pre>
+</div>
+</div>
+<p>Bisa kita lihat dari hasil regresi tersebut, nilai R-squared: 0.02653 yang berarti 26,53% bisa dijelaskan oleh variasi variavel X (total ekspor kopi) dan S (total produktivitas kopi).</p>
+<p>Ditunjukkan dari perkembangan data tersebut menunjukkan bahwa setiap terjadinya peningkatan pada total ekspor kopi dan total produktivitas kopi terjadinya peningkatan (Rp. 0.2653). Dalam hal ini berarti berpengaruh nyata terhadap nilai PDB Indonesia dan berpengaruh baik terhadap perkembangan dan pertumbuhan nilai PDB Indonesia.</p>
+</section>
+</section>
+<section id="kesimpulan" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> Kesimpulan</h1>
+<p>Dengan penelitian yang telah dilakukan, pembaca diharapkan dapat mengetahui bahwa pertumbuhan nilai PDB Indonesia salah satu faktornya dipengaruhi oleh total produktivitas kopi dan total ekspor kopi ke pasar internasional. Ketiga variabel tersebut memiliki kesinambungan dan keterkaitan secara konkrit, meskipun tidak menunjukkan angka yang terlalu signifikan. Hasil dari regresi tersebut menunjukkan bahwa nilai PDB Indonesia dipengaruhi oleh perkembangan volume ekspor itu sendiri. Sama halnya dengan peningkatan total produktivitas kopi itu mempengaruhi terjadinya peningkatan volume ekspor kopi itu sendiri, dan nantinya juga nmemiliki kesinambungan terhadap pertumbuhan nilai PDB Indonesia. Terjadinya peninngkatan total produktivitas kopi dan total volume ekspor kopi memiliki hubungan atau korelasi positif terhadap kenaikan dan pertumbuhan nilai PDB Indonesia.</p>
+</section>
+<section id="referensi" class="level1" data-number="6">
+<h1 data-number="6"><span class="header-section-number">6</span> Referensi</h1>
+<p>Badan Pusat Statistik., (2015), “<em>Tujuan Ekspor Kopi Indonesia</em>”, diakses dari pada tanggal 18 Januari 2022</p>
+<p>Fernanda, Y, K,A. dan AM. Rini Setyastuti .2018. Analisis Ekspor Komoditas Kopi Indonesia di Pasar Dunia.</p>
+<p>Hanani, N., Rosihan, A., dan Fahriyah. Persaingan Ekspor Kopi Indonesia di Pasar Internasional. <em>Jurnal Kopi Perhepi Nufi</em>.</p>
+<p>International Coffee Organization., (2017), “Tabel Total Ekspor Dari Negara Pengekspor 2017”, London. diakses dari <em>http://www.ico.org/new_historical.asp</em> pada tanggal 18 Januari 2022.</p>
+<p>Krugman, Paul R. dan Maurice Obstfeld., (1999), <em>“Ekonomi Internasional: Teori dan Kebijakan”</em>, Terjemahan, PT Raja Grafindo Persada, Jakarta.</p>
+<p>Lubis, A, R, Lia Mawarni,. dan Rosita Sipayung. .2017. Respon Pertumbuhan Bibit Kopi Robusta Terhadap Pemberian Pupuk Kandang Ayam dan Pupuk Organik Cair. <em>Jurnal Agroekotekonologi FP USU.</em> Vol 5. No 3. Hal 692-696</p>
+<p>Malavolta, E. 1990. Nutricao Mineral e Adubacao do Cafeeiro. Associacao Brasileira para Pesquisa da Potassa e do Fosfato (Piracicaba). <em>Editora Agronomica Ceres Ltd</em>. Sao Paulo.</p>
+<p>Mankiw N,Gregory, dkk. 2012<em>, Pengantar Ekonomi Makro</em>. Jakarta: SalembaEmpat.</p>
+<p>Mestika, Zed. 2004. <em>Metode Penelitian Kepustakaan</em>. Jakarta. Yayasan Bogor Indonesia.</p>
+<p>Nopriyandi, R dan Haryadi.2017. Analisis Ekspor Kopi Indonesia. <em>Jurnal Paradigma Ekonomika</em>. Vol. 12 No 1.</p>
+<p>Pusat Penelitian Kopi dan Kakao Indonesia (PPKKI). 2006. Pedoman Teknis Budi Daya Tanaman Kopi. Jember, Jawa Timur. Indonesia Coffee and Cacao Research Institute.</p>
+<p>Ramadhani, R. 2018. Analisis Ekspor Kopi Indonesia. <em>Jurnal Publikasi</em>. Vol. 12 No 1.</p>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
